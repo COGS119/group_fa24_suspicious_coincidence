@@ -26,9 +26,18 @@
   /* create timeline */
   var timeline = [];
 
-  //TO DO: set filename based on participant info entered
-  const random_id = jsPsych.randomization.randomID(10);
-  const filename = `${random_id}.csv`;
+  //PLEASE KEEP FOR ALL FUTURE ITERATIONS
+  //create a unique filename by combining a random string and a millisecond counter (to avoid duplicates)
+  var random_id = jsPsych.randomization.randomID(10);
+  const date = new Date();
+  random_id = "p"+random_id.toString();
+  var file_id = random_id + "_" + date.getTime().toString();
+  const filename = `${file_id}.csv`;
+  //also store the random id for convenience
+  jsPsych.data.addProperties({
+        random_id: random_id,
+      });
+  //PLEASE KEEP FOR ALL FUTURE ITERATIONS
 
   // *To do*: still have to add mr. frog and other intro direction stuff
 
