@@ -498,6 +498,18 @@
   timeline.push(...block1_trials);  // Add block 1 trials to the timeline
   timeline.push(...block2_trials);  // Add block 2 trials to the timeline
 
+  // Thank you message (might take this out so that data is saved right away)
+  var thankyou = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `
+      <p>Thank you for playing! This was a big help for Mr. Frog!</p>
+      <img src="stimuli/mrfrog.png" alt="Mr. Frog" style="width:300px;height:300px;">
+      <p>Press any key to save data.</p>
+  `
+  };
+
+  timeline.push(thankyou)
+
   //PLEASE KEEP FOR ALL FUTURE ITERATIONS
   //this portion of the code ensures that the data gets sent to be stored on OSF
   const save_data = {
