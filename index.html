@@ -53,7 +53,7 @@
  var preload = {
    type: jsPsychPreload,
    images: [
-    "mrfrog.jpg",
+     "stimuli/mrfrog.png",
      "stimuli/c1_sub1.jpg",
      "stimuli/c1_sub2.jpg",
      "stimuli/c1_sub3.jpg",
@@ -103,13 +103,12 @@
  };
  timeline.push(preload);
 
- // define welcome message trial
+ // Welcome message
  var welcome = {
    type: jsPsychHtmlKeyboardResponse,
    stimulus: "Welcome to the experiment. Press any key to begin."
  };
 
- // add the welcome trial to the timeline variable
  timeline.push(welcome);
 
  // create a short survey to collect a participant identifier
@@ -130,18 +129,27 @@
  var instructions = {
    type: jsPsychHtmlKeyboardResponse,
    stimulus: `
-  <p>This is Mr. Frog.</p>
-  <img src="images/mrfrog.jpg" alt="Mr. Frog" style="width:300px;height:300px;">
+  <p>This is Mr. Frog!</p>
+  <img src="stimuli/mrfrog.png" alt="Mr. Frog" style="width:300px;height:300px;">
   <p>He speaks a different language and needs help finding the items he wants. Can you help Mr. Frog?</p>
+  <p>Press any key to move to the next page.</p>
+`
+ };
+
+ timeline.push(instructions);
+
+ // are these extra instructions helpful? or should i take it out???
+ var instructions2 = {
+   type: jsPsychHtmlKeyboardResponse,
+   stimulus: `
+  <img src="stimuli/mrfrog.png" alt="Mr. Frog" style="width:300px;height:300px;">
+  <p>In each trial, you will be shown an image that will be labeled with a word in the language that Mr. Frog speaks. </p>
+  <p>Your job will be to select all the items that you think matches what Mr. Frog is asking for. </p>
   <p>Press any key to begin.</p>
 `
  };
 
- //add the instructions trial to the timeline
- timeline.push(instructions);
-
-  // *To do*: still have to add mr. frog and other intro direction stuff
-
+ timeline.push(instructions2);
 
   /* Stimuli */
   // still have to preload images?
@@ -351,7 +359,8 @@
     "stimuli/c3_sup6.jpg"
   ];
 
-  // Shuffle function using Fisher-Yates algorithm; randomizes the order of the generalization images
+  // Shuffle function using Fisher-Yates algorithm; 
+  // for randomizing the order of the generalization images in grid
   // Note: Shuffled with the help of ChatGPT
   function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -359,20 +368,6 @@
       [array[i], array[j]] = [array[j], array[i]];
     }
   }
-
-  // Randomize positions in each trial
-  // *TO DO NOTE*: not sure how to have it randomize for each trial? Right now the grid is randomized the same way for each trial throughout the whole experiment. 
-  shuffle(grid_image_names);
-
-  //create an array of images formatted in html based on the array of grid images
-  var grid_images = [];
-  for (i = 0; i < grid_image_names.length; i++) {
-    grid_images.push('<img src="' + grid_image_names[i] + '" style="width:100px;height:100px;">')
-  };
-
-  shuffle(grid_images);
-
-  console.log(grid_images)
 
   /*Trial Construction*/
   // Note about ChatGPT usage: In order to be able to have a more dynamic trial structure 
@@ -406,6 +401,10 @@
         var image_name = getStimulusForBlock1(category); 
         // Get the shuffled label for the current category
         var label = labelAssignments[category][level]; 
+
+
+        // Shuffle the grid image names for each trial (to randomize their positions)
+        shuffle(grid_image_names);
       
         // Construct and return the stimulus HTML
         return `<img src="${image_name}" style="width:300px;height:300px;"> 
@@ -467,6 +466,9 @@
           // Get the label for the current category and level
           var label = labelAssignments[category][level];  // Get the shuffled label for this category and level
 
+          // Shuffle the grid image names for each trial (to randomize their positions)
+          shuffle(grid_image_names);
+
           // Construct HTML for stimulus: show all 3 images
           var stimulusHtml = stimulusImages.map(function(image) {
             return '<img src="' + image + '" style="width:300px;height:300px; margin: 5px;">';
@@ -493,7 +495,6 @@
   shuffle(block2_trials);
 
   // Add shuffled block1_trials and block2_trials to timeline
-  var timeline = [];
   timeline.push(...block1_trials);  // Add block 1 trials to the timeline
   timeline.push(...block2_trials);  // Add block 2 trials to the timeline
 
