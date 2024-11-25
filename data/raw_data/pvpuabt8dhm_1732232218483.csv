@@ -1,0 +1,65 @@
+"success","rt","trial_type","trial_index","plugin_version","time_elapsed","random_id","participant","timeout","failed_images","failed_audio","failed_video","stimulus","response","condition","category","level","selection_array","selection_index","rt_array","selection_type_array","final_choice_array","final_rt"
+"true","1523","fullscreen","0","null","2526","pvpuabt8dhm"," antelope","","","","","","","","","","","","","","",""
+"true","","preload","1","2.0.0","2870","pvpuabt8dhm"," antelope","false","[]","[]","[]","","","","","","","","","","",""
+"","911","html-keyboard-response","2","2.0.0","3782","pvpuabt8dhm"," antelope","","","","","Welcome to the experiment. Press any key to begin.","j","","","","","","","","",""
+"","3318","survey-text","3","2.0.0","7103","pvpuabt8dhm"," antelope","","","","","","{""participant_id"":"" antelope""}","","","","","","","","",""
+"","6336","html-keyboard-response","4","2.0.0","13440","pvpuabt8dhm"," antelope","","","","","
+  <p><b>This is Mr. Frog!</b></p>
+  <img src=""stimuli/mrfrog.png"" alt=""Mr. Frog"" style=""width:300px;height:300px;"">
+  <p>He speaks a different language and needs help finding the items he wants. Can you help Mr. Frog?</p>
+  <p>Press any key to move to the next page.</p>
+"," ","","","","","","","","",""
+"","6679","html-keyboard-response","5","2.0.0","20121","pvpuabt8dhm"," antelope","","","","","
+  <img src=""stimuli/mrfrog.png"" alt=""Mr. Frog"" style=""width:300px;height:300px;"">
+  <p>In each trial, you will be shown an image that will be labeled with a word in the language that Mr. Frog speaks. </p>
+  <p>Your job will be to select all the items that you think matches what Mr. Frog is asking for. </p>
+  <p>Press any key to begin.</p>
+"," ","","","","","","","","",""
+"","","html-button-response","6","2.0.0","43666","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c1_sub1.jpg"" style=""width:200px;height:200px;""> 
+              <p>Here is a mep. Can you give Mr. Frog all the other meps?</p>
+              <p>Click on all of the meps below. If you change your mind, you can unselect any image.</p>
+              <p>Click the Submit button when you are done selecting all the meps.</p>","","1-item","vegetables","one-subordinate","[""stimuli/c1_bas4.jpg"",""stimuli/c1_bas3.jpg"",""stimuli/c1_sub5.jpg"",""stimuli/c3_sup5.jpg"",""stimuli/c3_sup5.jpg"",""stimuli/c1_sub4.jpg""]","[0,2,8,10,10,16]","[14424,15001,15475,17554,18468,19263]","[""select"",""select"",""select"",""select"",""unselect"",""select""]","[""stimuli/c1_bas4.jpg"",""stimuli/c1_bas3.jpg"",""stimuli/c1_sub5.jpg"",""stimuli/c1_sub4.jpg""]","23541"
+"","","html-button-response","7","2.0.0","51643","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c2_sub1.jpg"" style=""width:200px;height:200px;""> 
+              <p>Here is a tev. Can you give Mr. Frog all the other tevs?</p>
+              <p>Click on all of the tevs below. If you change your mind, you can unselect any image.</p>
+              <p>Click the Submit button when you are done selecting all the tevs.</p>","","1-item","vehicles","one-subordinate","[""stimuli/c2_sub5.jpg"",""stimuli/c2_sub4.jpg""]","[5,10]","[4602,6031]","[""select"",""select""]","[""stimuli/c2_sub5.jpg"",""stimuli/c2_sub4.jpg""]","7974"
+"","","html-button-response","8","2.0.0","55463","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c3_sub1.jpg"" style=""width:200px;height:200px;""> 
+              <p>Here is a sib. Can you give Mr. Frog all the other sibs?</p>
+              <p>Click on all of the sibs below. If you change your mind, you can unselect any image.</p>
+              <p>Click the Submit button when you are done selecting all the sibs.</p>","","1-item","animals","one-subordinate","[""stimuli/c3_sub4.jpg"",""stimuli/c3_sub5.jpg""]","[9,14]","[1496,1921]","[""select"",""select""]","[""stimuli/c3_sub4.jpg"",""stimuli/c3_sub5.jpg""]","3816"
+"","","html-button-response","9","2.0.0","66401","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c3_sup2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_sup1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some rabs. Can you give Mr. Frog all the other rabs?</p>
+                                 <p>Click on all of the rabs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the rabs.</p>","","3-item","animals","superordinate","[""stimuli/c3_sub4.jpg""]","[3]","[2171]","[""select""]","[""stimuli/c3_sub4.jpg""]","10934"
+"","","html-button-response","10","2.0.0","75413","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c2_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_bas2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_bas1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some feps. Can you give Mr. Frog all the other feps?</p>
+                                 <p>Click on all of the feps below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the feps.</p>","","3-item","vehicles","basic","[""stimuli/c2_bas3.jpg"",""stimuli/c2_sub4.jpg"",""stimuli/c2_bas4.jpg"",""stimuli/c2_sub5.jpg""]","[9,5,20,13]","[1771,2509,3222,5453]","[""select"",""select"",""select"",""select""]","[""stimuli/c2_bas3.jpg"",""stimuli/c2_sub4.jpg"",""stimuli/c2_bas4.jpg"",""stimuli/c2_sub5.jpg""]","9009"
+"","","html-button-response","11","2.0.0","82163","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c2_sub2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_sub3.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some tevs. Can you give Mr. Frog all the other tevs?</p>
+                                 <p>Click on all of the tevs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the tevs.</p>","","3-item","vehicles","subordinate","[""stimuli/c2_sub4.jpg"",""stimuli/c2_sub5.jpg""]","[9,7]","[4869,5768]","[""select"",""select""]","[""stimuli/c2_sub4.jpg"",""stimuli/c2_sub5.jpg""]","6746"
+"","","html-button-response","12","2.0.0","333071","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c2_sup2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c2_sup1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some wugs. Can you give Mr. Frog all the other wugs?</p>
+                                 <p>Click on all of the wugs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the wugs.</p>","","3-item","vehicles","superordinate","[""stimuli/c2_sub4.jpg"",""stimuli/c2_bas3.jpg"",""stimuli/c2_sub5.jpg""]","[7,23,18]","[244356,248506,249703]","[""select"",""select"",""select""]","[""stimuli/c2_sub4.jpg"",""stimuli/c2_bas3.jpg"",""stimuli/c2_sub5.jpg""]","250917"
+"","","html-button-response","13","2.0.0","341629","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c3_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_sub2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_sub3.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some sibs. Can you give Mr. Frog all the other sibs?</p>
+                                 <p>Click on all of the sibs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the sibs.</p>","","3-item","animals","subordinate","[""stimuli/c3_sub5.jpg"",""stimuli/c3_sub4.jpg""]","[15,19]","[5441,6716]","[""select"",""select""]","[""stimuli/c3_sub5.jpg"",""stimuli/c3_sub4.jpg""]","8555"
+"","","html-button-response","14","2.0.0","344495","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c1_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_sub2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_sub3.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some meps. Can you give Mr. Frog all the other meps?</p>
+                                 <p>Click on all of the meps below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the meps.</p>","","3-item","vegetables","subordinate","[""stimuli/c3_sub4.jpg"",""stimuli/c3_sub5.jpg""]","[16,11]","[1265,1738]","[""select"",""select""]","[""stimuli/c3_sub4.jpg"",""stimuli/c3_sub5.jpg""]","2862"
+"","","html-button-response","15","2.0.0","352392","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c1_sup1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_sup2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some tobs. Can you give Mr. Frog all the other tobs?</p>
+                                 <p>Click on all of the tobs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the tobs.</p>","","3-item","vegetables","superordinate","[""stimuli/c1_sup5.jpg"",""stimuli/c1_sup6.jpg"",""stimuli/c1_sub5.jpg"",""stimuli/c1_sup4.jpg"",""stimuli/c1_sup3.jpg""]","[13,7,19,20,22]","[2983,3424,3938,4299,6329]","[""select"",""select"",""select"",""select"",""select""]","[""stimuli/c1_sup5.jpg"",""stimuli/c1_sup6.jpg"",""stimuli/c1_sub5.jpg"",""stimuli/c1_sup4.jpg"",""stimuli/c1_sup3.jpg""]","7894"
+"","","html-button-response","16","2.0.0","382233","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c3_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_bas1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c3_bas2.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some zoms. Can you give Mr. Frog all the other zoms?</p>
+                                 <p>Click on all of the zoms below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the zoms.</p>","","3-item","animals","basic","[""stimuli/c3_bas3.jpg"",""stimuli/c3_bas4.jpg"",""stimuli/c3_sub5.jpg""]","[7,1,19]","[2477,3143,4259]","[""select"",""select"",""select""]","[""stimuli/c3_bas3.jpg"",""stimuli/c3_bas4.jpg"",""stimuli/c3_sub5.jpg""]","29839"
+"","","html-button-response","17","2.0.0","390042","pvpuabt8dhm"," antelope","","","","","<img src=""stimuli/c1_bas2.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_sub1.jpg"" style=""width:200px;height:200px; margin: 5px;""><img src=""stimuli/c1_bas1.jpg"" style=""width:200px;height:200px; margin: 5px;""><p>Here are some rifs. Can you give Mr. Frog all the other rifs?</p>
+                                 <p>Click on all of the rifs below. If you change your mind, you can unselect any image.</p>
+                                 <p>Click the Submit button when you are done selecting all the rifs.</p>","","3-item","vegetables","basic","[""stimuli/c1_bas4.jpg"",""stimuli/c1_bas3.jpg"",""stimuli/c1_sub4.jpg"",""stimuli/c1_sub5.jpg""]","[13,1,0,17]","[1618,2163,2629,6827]","[""select"",""select"",""select"",""select""]","[""stimuli/c1_bas4.jpg"",""stimuli/c1_bas3.jpg"",""stimuli/c1_sub4.jpg"",""stimuli/c1_sub5.jpg""]","7806"
+"","125203","html-keyboard-response","18","2.0.0","515240","pvpuabt8dhm"," antelope","","","","","
+      <p>Thank you for playing! This was a big help for Mr. Frog!</p>
+      <img src=""stimuli/mrfrog.png"" alt=""Mr. Frog"" style=""width:300px;height:300px;"">
+      <p><i>Debrief</i>: In this experiment, we wanted to see how people learn subordinate word meanings (e.g., “dalmatian”) when</p>
+      <p>superordinate (e.g., “animal”) and basic-level (e.g., “dog”) meanings can also be reasonable label referents.</p>
+      <p>We thought that when presented with three subordinate exemplars (aka the trials with three images), a word will be generalized</p>
+      <p>to the subordinate level more often than when presented with one subordinate exemplar (aka the trials with one image).</p>
+      <p><b>*Please press any key to save data.*</b></p>
+  ","m","","","","","","","","",""
