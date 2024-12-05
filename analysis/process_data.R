@@ -55,7 +55,25 @@ processed_data <- exp_data %>%
       TRUE ~ 0
     )
   )
-  
+
+#filter participant ids
+filter_ids <- c(
+  "1","12","1234","a1","as","nm","p4","p6"
+)
+
+processed_data <- processed_data %>%
+  mutate(participant_id = trimws(tolower(participant_id))) %>%
+  #fix some ids
+  mutate(
+    participant_id = case_when(
+      participant_id == "herson" ~ "heron",
+      participant_id == "p73" ~ "giraffe",
+      participant_id == "2341" ~ "porcupine",
+      participant_id == "a17689315" ~ "rabbit",
+      TRUE ~ participant_id
+    )
+  ) %>%
+  filter(!(participant_id %in% filter_ids))
 
 #store processed and prepped data
 write_csv(processed_data,here(processed_data_directory,paste0(file_name,"-processed-data.csv")))
